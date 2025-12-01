@@ -58,3 +58,5 @@ class PostDetailAPIView(APIView):
     print("Logging added!")
     print("Update from team!")
     print("Auth added!")
+    print("Update from team!")
+    print("Logging added!")

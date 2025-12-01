@@ -56,3 +56,4 @@ class PostDetailAPIView(APIView):
         post.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
     print("Нет нельзя тут создавать лишнее")
+    print("Привет из ветки feature/createuser")

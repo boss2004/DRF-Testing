@@ -56,5 +56,3 @@ class PostDetailAPIView(APIView):
         post.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
     print("Нет нельзя тут создавать лишнее")
-    print("Пробую делать что-то")
-    print("Почему нельзя?")

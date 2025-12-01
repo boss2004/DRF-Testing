@@ -50,10 +50,9 @@ class PostDetailAPIView(APIView):
             serializer.save()
             return Response(serializer.data)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-    print("Patch from team!")
 
     def delete(self, request, pk):
         post = self.get_object(pk)
         post.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
-    print("Пробую делать что-то")
+    print("Нет нельзя тут создавать лишнее")
